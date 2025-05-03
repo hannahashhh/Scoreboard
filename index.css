@@ -1,0 +1,108 @@
+* {
+    color: #0D1321;
+}
+body {
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #3E5C76;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    gap: 100px;
+}
+#home {
+    text-align: center;
+}
+#guest {
+    text-align: center;
+}
+.score {
+    font-size: 100px;
+    font-family: "Share Tech Mono", serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    height: 300px;
+
+    margin: 25px 0px;
+
+    background-color: #ffff;
+    border-radius: 10%;
+}
+h4{
+    margin: 0px;
+    font-size: 150px;
+}
+h3 {
+    margin: 0;
+
+    font-size: 75px;
+    font-family: "Cascadia Code", serif;
+}
+.score-btn {
+    height: 75px;
+    width: 75px;
+    margin: 0 20px;
+
+    font-size: 25px;
+    font-family: "Cascadia Code", serif;
+    
+    background-color: #f0ebd8;
+
+    border-radius: 10%;
+}
+
+.timer-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px;
+
+    text-align: center;
+    font-family: "Cascadia Code", serif;
+
+    
+}
+#input {
+    padding:10px;
+}
+#timeInput {
+    width: 300px;
+    text-align: center;
+    height: 40px;
+    background-color: #f0ebd8;
+}
+#countdown {
+    padding:10px;
+    margin: 25px;
+    
+    font-size: 50px;
+    font-family: "Share Tech Mono", serif;
+
+    
+    border-radius: 5%;
+    background-color: #ffff;
+}
+.timer-btn {
+    height: 45px;
+    width: 75px;
+    margin: 0 15px;
+
+    font-family: "Cascadia Code", serif;
+
+    background-color: #f0ebd8;
+
+    border-radius: 8%;
+}
+
+  

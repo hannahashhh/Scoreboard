@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <div class="container">
+            <div id="home">
+                <h3>HOME</h3>
+                <div class="score">
+                    <h4 id="home-score">0</h4>
+                </div>
+                <div class="points">
+                    <button class="score-btn" id="home-one" onclick="homePoints1()">+1</button>
+                    <button class="score-btn" id="home-two" onclick="homePoints2()">+2</button>
+                    <button class="score-btn" id="home-three" onclick="homePoints3()">+3</button>
+                </div>
+            </div>
+
+            <div id="guest">
+                <h3>GUEST</h3>
+                <div class="score">
+                    <h4 id="guest-score">0</h4>
+                </div>
+                <div class="points">
+                    <button class="score-btn" id="guest-one" onclick="guestPoints1()">+1</button>
+                    <button class="score-btn" id="guest-two" onclick="guestPoints2()">+2</button>
+                    <button class="score-btn" id="guest-three" onclick="guestPoints3()">+3</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="timer-container">
+            <div>
+                <div id="input">
+                    <input id="timeInput" type="text" placeholder="Enter time (mm:ss)">
+                </div>
+                <div id="countdown">00:00</div>
+                <div id="timer-btn">
+                <button class="timer-btn" onclick="startCountdown()">Start</button>
+                <button class="timer-btn" onclick="stopCountdown()">Stop</button>
+                <button class="timer-btn" onclick="resetCountdown()">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
